@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -15,12 +19,18 @@
         <div class="nav-link-wrapper active-nav-link">
           <a href="index.php">Home</a>
         </div>
-        <div class="nav-link-wrapper active-nav-link">
-          <a href="login.php">Log In</a>
-        </div>
-        <div class="nav-link-wrapper active-nav-link">
-          <a href="signup.php">Sign Up</a>
-        </div>
+        <?php
+            if(isset($_SESSION["useruid"]))
+            {
+                echo "<div class='nav-link-wrapper active-nav-link'><a href='profile.php'>Profile Page</a></div>";
+                echo "<div class='nav-link-wrapper active-nav-link'><a href='includes/logout.inc.php'>Log Out</a></div>";
+            }
+            else
+            {
+                echo "<div class='nav-link-wrapper active-nav-link'><a href='login.php'>Log In</a></div>";
+                echo "<div class='nav-link-wrapper active-nav-link'><a href='signup.php'>Sign Up</a></div>";  
+            }
+        ?>
 
       </div>
 

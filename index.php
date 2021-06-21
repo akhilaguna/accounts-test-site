@@ -2,6 +2,12 @@
   include_once 'header.php';
 ?>
       <div class="portfolio-items-wrapper">
+      <?php
+            if(isset($_SESSION["useruid"]))
+            {
+                echo "<p>Hello there " . $_SESSION["useruid"] . "</p>";
+            }
+        ?>
 
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
