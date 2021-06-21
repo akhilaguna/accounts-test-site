@@ -6,8 +6,8 @@
     <form action="login.inc.php" method="POST">
         <table>
             <tr>
-                <td>User ID:</td>
-                <td><input type="text" name="uid" placeholder="Username..."></td>
+                <td>User ID or Email:</td>
+                <td><input type="text" name="uid" placeholder="Username/Email..."></td>
             </tr>
             <tr>
                 <td>Password:</td>
