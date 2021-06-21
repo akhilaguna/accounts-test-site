@@ -6,23 +6,27 @@
     <form action="signup.inc.php" method="POST">
         <table>
             <tr>
-                <td>UserID</td>
-                <td><input type="text" name="uid"></td>
+                <td>Full Name:</td>
+                <td><input type="text" name="name" placeholder="Full name..."></td>
             </tr>
             <tr>
-                <td>Name</td>
-                <td><input type="text" name="fname"></td>
+                <td>Email:</td>
+                <td><input type="text" name="email" placeholder="Email..."></td>
             </tr>
             <tr>
-                <td>Password</td>
-                <td><input type="password" name="pass"></td>
+                <td>User ID:</td>
+                <td><input type="text" name="uid" placeholder="Username..."></td>
             </tr>
             <tr>
-                <td>Re-enter Password</td>
-                <td><input type="password" name="pass2"></td>
+                <td>Password:</td>
+                <td><input type="password" name="pwd" placeholder="Password..."></td>
             </tr>
             <tr>
-                <td><input type="submit" name="Submit"></td>
+                <td> Confirm Password:</td>
+                <td><input type="password" name="pwdrepeat" placeholder=" Re-enter Password..."></td>
+            </tr>
+            <tr>
+                <td><button type="submit" name="submit">Sign Up</button></td>
             </tr>
         </table>
     </form>
