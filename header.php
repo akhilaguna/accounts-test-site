@@ -13,10 +13,10 @@
     <div class="nav-wrapper">
       <div class="left-side">
         <div class="nav-link-wrapper active-nav-link">
-          <a href="index.html">Home</a>
+          <a href="index.php">Home</a>
         </div>
         <div class="nav-link-wrapper active-nav-link">
-          <a href="index.html">Log In</a>
+          <a href="signup.php">Log In</a>
         </div>
         <div class="nav-link-wrapper active-nav-link">
           <a href="index.html">Sign Up</a>
