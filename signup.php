@@ -22,7 +22,7 @@
                 <td><input type="password" name="pwd" placeholder="Password..."></td>
             </tr>
             <tr>
-                <td> Confirm Password:</td>
+                <td>Confirm Password:</td>
                 <td><input type="password" name="pwdrepeat" placeholder=" Re-enter Password..."></td>
             </tr>
             <tr>
