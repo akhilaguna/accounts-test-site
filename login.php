@@ -3,7 +3,7 @@
 ?>
     <div>
     <h1>Log In</h1>
-    <form action="login.inc.php" method="POST">
+    <form action="includes/login.inc.php" method="POST">
         <table>
             <tr>
                 <td>User ID or Email:</td>

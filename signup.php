@@ -3,7 +3,7 @@
 ?>
     <div>
     <h1>Sign Up</h1>
-    <form action="signup.inc.php" method="POST">
+    <form action="includes/signup.inc.php" method="POST">
         <table>
             <tr>
                 <td>Full Name:</td>
