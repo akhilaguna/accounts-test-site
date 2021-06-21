@@ -25,7 +25,18 @@ if(isset($_POST['submit']))
         header("location: ../signup.php?erro=invalidemail");
         exit();
     }
-    
+    if(pwMatch($pwd, $pwdrepeat) !== false)
+    {
+        header("location: ../signup.php?erro=passwordsdontmatch");
+        exit();
+    }
+    if(uidExists($conn, $username, $email) !== false)
+    {
+        header("location: ../signup.php?erro=usernametaken");
+        exit();
+    }
+
+    createUser($conn, $name, $email, $username, $pwd);
 
 }
 else
