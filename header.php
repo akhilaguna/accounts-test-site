@@ -16,10 +16,10 @@
           <a href="index.php">Home</a>
         </div>
         <div class="nav-link-wrapper active-nav-link">
-          <a href="signup.php">Log In</a>
+          <a href="login.php">Log In</a>
         </div>
         <div class="nav-link-wrapper active-nav-link">
-          <a href="index.html">Sign Up</a>
+          <a href="signup.php">Sign Up</a>
         </div>
 
       </div>
