@@ -15,10 +15,13 @@
         <div class="nav-link-wrapper active-nav-link">
           <a href="index.html">Home</a>
         </div>
-
-        <div class="nav-link-wrapper">
-          <a href="about.html">About</a>
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Log In</a>
         </div>
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Sign Up</a>
+        </div>
+
       </div>
 
       <div class="right-side">
